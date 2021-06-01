@@ -6,26 +6,102 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .menu {
   width: 200px;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellowgreen;
+  background-color: lightgrey;
+  border-radius: 0 0 10% 10%;
 }
+
+/* .menu {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+} */
+/* .menu:before,
+.menu:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+} */
+/* .menu:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(18deg) rotate(3deg);
+  -moz-transform: skew(18deg) rotate(3deg);
+  -ms-transform: skew(18deg) rotate(3deg);
+  -o-transform: skew(18deg) rotate(3deg);
+  transform: skew(18deg) rotate(3deg);
+} */
 .circle {
   width: 150px;
   height: 150px;
-  background-color: yellow;
+  background-color: white;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+.menu_btn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -36px;
+  left: 48px;
+}
+.menu button {
+  background: none;
+  border: none;
+}
+
 .center_btn {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: yellowgreen;
+  background-color: lightgrey;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.next_btn {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  position: relative;
+  left: 112px;
+  top: -9px;
+}
+.prev_btn {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  position: relative;
+  left: 8px;
+  top: -25px;
+}
+.pause_btn {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  position: relative;
+  top: 4px;
+  left: 61px;
 }
