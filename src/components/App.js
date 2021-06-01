@@ -5,8 +5,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Display />
-        <Menu />
+        <div className="container">
+          <Display />
+          <Menu />
+        </div>
       </div>
     );
   }
