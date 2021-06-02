@@ -13,8 +13,8 @@ class Display extends Component {
           {/* <Home /> */}
           {/* <ControlFlow /> */}
           {/* <Music /> */}
-          <Game />
-          {/* <Setting /> */}
+          {/* <Game /> */}
+          <Setting />
         </div>
       </div>
     );
