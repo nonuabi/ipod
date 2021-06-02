@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = {
       homeItems: ["Cover Flow", "Music", "Game", "Settings"],
       musicItems: ["All Music", "Artices", "Album"],
-      settingItems: ["Themes", "Wheel Color"],
+      settingItems: ["Themes", "Time&Date"],
       currentState: 1,
       prevState: -1,
       index: -1,
