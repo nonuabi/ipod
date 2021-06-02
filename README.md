@@ -2,11 +2,13 @@
 
 # Preview
 
-## Home Screen
+## Screen
 
 ![](src/img/complete.JPG)
 
+### Home Screen
 
+![](src/img/home.JPG)
 
 ### `npm start`
 
