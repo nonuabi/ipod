@@ -1,4 +1,4 @@
-# Build an iPod using React.js.
+# iPod using React.js.
 
 # Preview
 
