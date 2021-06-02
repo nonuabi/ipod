@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+//cover flow componet
 class CoverFlow extends Component {
   render() {
     return (
@@ -9,5 +9,5 @@ class CoverFlow extends Component {
     );
   }
 }
-
+//exporting cover flow class
 export default CoverFlow;

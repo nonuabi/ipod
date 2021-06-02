@@ -1,3 +1,4 @@
+/* lower container */
 .menu {
   width: 230px;
   height: 200px;
@@ -6,12 +7,15 @@
   align-items: center;
 }
 
+/* wheel  */
 .circle {
   width: 150px;
   height: 150px;
   background-color: white;
   border-radius: 50%;
 }
+
+/* menu button */
 .menu_btn {
   width: 20px;
   height: 20px;
@@ -19,11 +23,14 @@
   top: -36px;
   left: 48px;
 }
+
+/* menu class contain button */
 .menu button {
   background: none;
   border: none;
 }
 
+/* center circle */
 .center_btn {
   width: 50px;
   height: 50px;
@@ -33,6 +40,8 @@
   top: 50px;
   left: 50px;
 }
+
+/* forward button */
 .next_btn {
   width: 20px;
   height: 20px;
@@ -41,6 +50,8 @@
   left: 112px;
   top: -7px;
 }
+
+/* prev button */
 .prev_btn {
   width: 20px;
   height: 20px;
@@ -49,6 +60,8 @@
   left: 8px;
   top: -25px;
 }
+
+/* pause button */
 .pause_btn {
   width: 20px;
   height: 20px;
