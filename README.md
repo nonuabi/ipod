@@ -2,11 +2,7 @@
 
 # Preview
 
-<<<<<<< HEAD
 ## Screen
-=======
-### Home Screen
->>>>>>> aaeb84ca2b357d154c8166b413d2aa94db45f266
 
 ![](src/img/complete.JPG)
 
