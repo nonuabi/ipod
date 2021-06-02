@@ -116,7 +116,7 @@ body {
   margin-top: 6px;
 }
 
-.pending{
+.pending {
   width: 200px;
   height: 200px;
   background-color: ghostwhite;
@@ -126,4 +126,5 @@ body {
   justify-content: center;
   align-items: center;
   background-size: cover;
+  flex-direction: column;
 }

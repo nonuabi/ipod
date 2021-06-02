@@ -10,10 +10,10 @@ class Display extends Component {
     return (
       <div className="display">
         <div className="display_contant">
-          <Home />
+          {/* <Home /> */}
           {/* <ControlFlow /> */}
           {/* <Music /> */}
-          {/* <Game /> */}
+          <Game />
           {/* <Setting /> */}
         </div>
       </div>
