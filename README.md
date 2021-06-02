@@ -1,10 +1,12 @@
 # Build an iPod using React.js.
 
-## Preview
+# Preview
 
-Home Screen
+## Home Screen
 
 ![](src/img/complete.JPG)
+
+
 
 ### `npm start`
 
