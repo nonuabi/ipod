@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { FaFastForward, FaFastBackward, FaPause } from "react-icons/fa";
 class Menu extends Component {
   render() {
+    const { rotateWheel, itemSelete } = this.props;
     return (
       <div className="menu">
-        <div className="circle">
-          <div className="center_btn"></div>
+        <div className="circle" id="circle_id" onClick={rotateWheel}>
+          <div className="center_btn" onClick={itemSelete}></div>
           <div className="menu_btn">
-            <button>MENU</button>
+            <button onClick={itemSelete}>MENU</button>
           </div>
           <div className="next_btn">
             <button>

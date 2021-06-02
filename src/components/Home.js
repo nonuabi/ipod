@@ -7,8 +7,12 @@ class Home extends Component {
       <div className="home display_default">
         <h2>iPod.js</h2>
         <ul>
-          {homeItems.map((element) => {
-            return <li>{element}</li>;
+          {homeItems.map((element, index) => {
+            return (
+              <li id={index} key={index}>
+                {element}{" "}
+              </li>
+            );
           })}
         </ul>
       </div>
