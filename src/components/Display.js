@@ -3,7 +3,7 @@ import Home from "./Home";
 import Music from "./Music";
 import Game from "./Game";
 import Setting from "./Setting";
-import ControlFlow from "./ControlFlow";
+import CoverFlow from "./CoverFlow";
 
 class Display extends Component {
   render() {
@@ -13,7 +13,7 @@ class Display extends Component {
       <div className="display">
         <div className="display_contant">
           {currentState === 1 && <Home homeItems={homeItems} />}
-          {currentState === 2 && <ControlFlow />}
+          {currentState === 2 && <CoverFlow />}
           {currentState === 3 && <Music musicItems={musicItems} />}
           {currentState === 4 && <Game />}
           {currentState === 5 && <Setting settingItems={settingItems} />}

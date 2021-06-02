@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      homeItems: ["Control Flow", "Music", "Game", "Settings"],
+      homeItems: ["Cover Flow", "Music", "Game", "Settings"],
       musicItems: ["All Music", "Artices", "Album"],
       settingItems: ["Themes", "Wheel Color"],
       currentState: 1,
@@ -24,9 +24,10 @@ class App extends React.Component {
       switch (this.state.currentState) {
         case 1:
           if (angle < 0) {
-            let controlFlow = document.getElementById("0");
-            controlFlow.style.backgroundColor = "#2B81A3";
-            controlFlow.style.color = "white";
+            let coverFlow = document.getElementById("0");
+            coverFlow.style.backgroundColor = "#2B81A3";
+            coverFlow.style.color = "white";
+
             this.setState({
               index: 0,
             });
@@ -44,9 +45,9 @@ class App extends React.Component {
             settings.style.backgroundColor = "white";
           }
           if (angle > 0 && angle < 15) {
-            let controlFlow = document.getElementById("0");
-            controlFlow.style.backgroundColor = "white";
-            controlFlow.style.color = "black";
+            let coverFlow = document.getElementById("0");
+            coverFlow.style.backgroundColor = "white";
+            coverFlow.style.color = "black";
 
             let music = document.getElementById("1");
             music.style.backgroundColor = "#2B81A3";
@@ -65,9 +66,9 @@ class App extends React.Component {
             settings.style.backgroundColor = "white";
           }
           if (angle > 15 && angle < 30) {
-            let controlFlow = document.getElementById("0");
-            controlFlow.style.backgroundColor = "white";
-            controlFlow.style.color = "black";
+            let coverFlow = document.getElementById("0");
+            coverFlow.style.backgroundColor = "white";
+            coverFlow.style.color = "black";
 
             let music = document.getElementById("1");
             music.style.backgroundColor = "white";
@@ -86,9 +87,9 @@ class App extends React.Component {
             settings.style.backgroundColor = "white";
           }
           if (angle > 30 && angle < 45) {
-            let controlFlow = document.getElementById("0");
-            controlFlow.style.backgroundColor = "white";
-            controlFlow.style.color = "black";
+            let coverFlow = document.getElementById("0");
+            coverFlow.style.backgroundColor = "white";
+            coverFlow.style.color = "black";
 
             let music = document.getElementById("1");
             music.style.backgroundColor = "white";

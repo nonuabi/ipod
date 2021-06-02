@@ -128,3 +128,8 @@ body {
   background-size: cover;
   flex-direction: column;
 }
+
+.selectItem {
+  background-color: #2b81a3;
+  color: white;
+}
