@@ -2,6 +2,8 @@ import React from "react";
 import Menu from "./Menu";
 import Display from "./Display";
 import ZingTouch from "zingtouch";
+import "../css/App.css";
+
 class App extends React.Component {
   constructor() {
     super();
@@ -26,7 +28,7 @@ class App extends React.Component {
     const region = new ZingTouch.Region(target);
     region.bind(target, "rotate", (e) => {
       angle = angle + e.detail.distanceFromLast;
-
+      console.log(angle);
       if (angle < 0) {
         let coverFlow = document.getElementById("0");
         coverFlow.style.backgroundColor = "#2B81A3";

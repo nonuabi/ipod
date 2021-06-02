@@ -4,6 +4,7 @@ import Music from "./Music";
 import Game from "./Game";
 import Setting from "./Setting";
 import CoverFlow from "./CoverFlow";
+import "../css/Display.css";
 
 class Display extends Component {
   render() {

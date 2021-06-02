@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FaFastForward, FaFastBackward, FaPause } from "react-icons/fa";
+import "../css/Menu.css";
 class Menu extends Component {
   render() {
     const { rotateWheel, forwardMove, backwardMove } = this.props;
