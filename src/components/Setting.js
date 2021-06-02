@@ -6,7 +6,7 @@ class Setting extends Component {
       <div className="setting display_default">
         <h2>Settings</h2>
         <ul>
-          <li>ipod themes</li>
+          <li>Themes</li>
           <li>Wheel Color</li>
         </ul>
       </div>
