@@ -7,14 +7,16 @@ import ControlFlow from "./ControlFlow";
 
 class Display extends Component {
   render() {
+    const { currentState, homeItems, musicItems, settingItems } = this.props;
+
     return (
       <div className="display">
         <div className="display_contant">
-          {/* <Home /> */}
-          {/* <ControlFlow /> */}
-          {/* <Music /> */}
-          {/* <Game /> */}
-          <Setting />
+          {currentState === 1 && <Home homeItems={homeItems} />}
+          {currentState === 2 && <ControlFlow />}
+          {currentState === 3 && <Music musicItems={musicItems} />}
+          {currentState === 4 && <Game />}
+          {currentState === 5 && <Setting settingItems={settingItems} />}
         </div>
       </div>
     );

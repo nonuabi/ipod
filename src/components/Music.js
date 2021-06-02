@@ -2,13 +2,14 @@ import React, { Component } from "react";
 
 class Music extends Component {
   render() {
+    const { musicItems } = this.props;
     return (
       <div className="music display_default">
         <h2>Music</h2>
         <ul>
-          <li>All Music</li>
-          <li>Artices</li>
-          <li>Album</li>
+          {musicItems.map((element) => {
+            return <li>{element}</li>;
+          })}
         </ul>
       </div>
     );
