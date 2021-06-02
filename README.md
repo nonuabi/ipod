@@ -2,7 +2,7 @@
 
 # Preview
 
-## Home Screen
+### Home Screen
 
 ![](src/img/complete.JPG)
 
