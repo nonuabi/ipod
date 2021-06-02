@@ -8,8 +8,12 @@ class Setting extends Component {
         {/* <Theme /> */}
         <h2>Settings</h2>
         <ul>
-          {settingItems.map((element) => {
-            return <li>{element}</li>;
+          {settingItems.map((element, index) => {
+            return (
+              <li id={index} key={index}>
+                {element}
+              </li>
+            );
           })}
         </ul>
       </div>
