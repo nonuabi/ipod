@@ -7,8 +7,12 @@ class Music extends Component {
       <div className="music display_default">
         <h2>Music</h2>
         <ul>
-          {musicItems.map((element) => {
-            return <li>{element}</li>;
+          {musicItems.map((element, index) => {
+            return (
+              <li id={index} key={index}>
+                {element}
+              </li>
+            );
           })}
         </ul>
       </div>
