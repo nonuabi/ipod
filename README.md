@@ -1,8 +1,14 @@
+
+
+
 # iPod using React.js.
 
 ## View this app at: https://nonuabi.github.io/ipod/
 
 # Preview
+
+https://user-images.githubusercontent.com/63551058/123069730-b11e3e00-d430-11eb-9e7e-f5a9b5a8f67a.mp4
+
 
 ## Screen
 
